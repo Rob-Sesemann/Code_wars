@@ -9,4 +9,17 @@ def palindrome(num):
         return True
     else:
         return False
-    
+
+
+
+
+
+
+
+
+
+# Remove the occurances of an instance from one list in another
+class List:
+    def remove_(self, integer_list, values_list):
+        integer_list = [i for i in integer_list if i not in values_list]
+        return integer_list
